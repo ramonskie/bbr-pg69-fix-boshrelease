@@ -1,0 +1,6 @@
+---
+name: fakepackage
+packages: []
+templates:
+  ignoreme: ignoreme
+properties: {}
