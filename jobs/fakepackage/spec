@@ -2,5 +2,5 @@
 name: fakepackage
 packages: []
 templates:
-  ignoreme: ignoreme
+  pre-start: bin/pre-start
 properties: {}
