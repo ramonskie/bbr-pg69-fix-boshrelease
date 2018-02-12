@@ -1,6 +1,0 @@
----
-- type: replace
-  path: /releases/name=fakepackage
-  value:
-    name: fakepackage
-    version: latest

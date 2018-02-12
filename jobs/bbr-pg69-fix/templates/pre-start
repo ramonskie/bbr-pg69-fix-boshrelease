@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# ln -sfn /var/vcap/packages/database-backup-restorer-postgres-9.6 /var/vcap/packages/postgres-9.4
+
+sed -i -e 's/postgres-9.4/database-backup-restorer-postgres-9.6/g' /var/vcap/jobs/director/bin/bbr/restore
+sed -i '/libpq/d' /var/vcap/jobs/director/bin/bbr/restore
+
+sed -i -e 's/postgres-9.4/database-backup-restorer-postgres-9.6/g' /var/vcap/jobs/director/bin/bbr/backup
+sed -i '/libpq/d' /var/vcap/jobs/director/bin/bbr/backup

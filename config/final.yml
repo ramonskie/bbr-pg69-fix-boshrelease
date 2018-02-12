@@ -2,5 +2,5 @@
 blobstore:
   provider: s3
   options:
-    bucket_name: fakepackage-boshrelease
-final_name: fakepackage
+    bucket_name: bbr-pg69-fix-boshrelease
+final_name: bbr-pg69-fix

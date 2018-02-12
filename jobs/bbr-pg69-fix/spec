@@ -1,5 +1,5 @@
 ---
-name: fakepackage
+name: bbr-pg69-fix
 packages: []
 templates:
   pre-start: bin/pre-start

@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-ln -sfn /var/vcap/packages/postgres-9.6.* /var/vcap/packages/postgres-9.4

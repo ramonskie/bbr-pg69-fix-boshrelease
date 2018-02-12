@@ -1,3 +1,0 @@
-- type: replace
-  path: /instance_groups/name=fakepackage/networks/name=default/name
-  value: ((network_name))
